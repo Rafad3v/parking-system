@@ -1,0 +1,73 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+html, body {
+  height: 100vh;
+}
+body {
+  font-size: 62.5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #34495e;
+}
+#container {
+  width: 35rem;
+  min-height: 500px;
+  background-color: #ecf0f1;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.input-area {
+  padding: 1rem 0;
+  display: flex;
+  justify-content:space-around;
+  background-color: #bdc3c7;
+}
+.input-area button {
+  border: none;
+  background-color: #34495e;
+  color: #fff;
+  padding: 0.2rem 0.5rem;
+  border-radius: 2px;
+  font-size: 0.85rem;
+  cursor: pointer;
+}
+.inputs input {
+  margin: 0 0.3rem;
+  border: none;
+  padding-top: 0.3rem;
+  padding-bottom: 0.3rem;
+  padding-left: 0.5rem;
+}
+.inputs input::placeholder {
+  padding-left: 0.3rem;
+  font-size: 0.75rem;
+}
+.info-place {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+.table-container {
+  width: 100%;
+  border: 1px solid #000;
+  border-collapse: collapse;
+  font-size: 0.85rem;
+}
+tr, th, td {
+  border: 1px solid #000;
+}
+th, td {
+  text-align: center;
+}
+td {
+  padding: 0.3rem 0;
+}
+.delete {
+  cursor: pointer;
+  padding: 0.1rem 0.25rem;
+}
